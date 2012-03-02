@@ -1,0 +1,15 @@
+
+首先注册一个github.com的免费帐号，然后本地配置ssh-key .... 以上一如 github help 所说
+
+与 github 用户 kang-kang 合作其项目 android-book，下面展示工作过程：
+
+1、在本地主目录(ginwave@～)下建立子目录git
+2、cd ~/git 
+3、git clone git@github.com:kang-kang/android-book.git 会在 git 目录下创建 android-book 目录并复制代码到该目录下
+4、cd android-book
+5、正常工作，比如使用vim修改原来的文件
+6、git diff 查看自己所做的工作
+7、git commit -a -m "test for git push"
+8、git log 查看版本历史（此时仍在本地）
+9、git push origin master 即可提交本次工作到远程github上
+
